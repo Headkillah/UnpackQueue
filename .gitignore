@@ -1,0 +1,42 @@
+bin
+obj
+test-results
+*/_ReSharper.*/*
+*.user
+*.suo
+*.pidb
+*.userprefs
+*.Designer.cs
+*.designer.cs
+
+### OS X gitignore ###
+# https://github.com/github/gitignore/blob/master/Global/OSX.gitignore
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+### Windows gitignore ###
+# https://github.com/github/gitignore/blob/master/Global/Windows.gitignore
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Version of Black Lodge
+Version.txt
+
+# Generated documentation
+Semcon.BlackLodge/Semcon.BlackLodge.WebApi/Docs/_site/

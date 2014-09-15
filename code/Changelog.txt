@@ -1,0 +1,21 @@
+﻿2.2:
+	Fixed: Items left were calculated wrong in some scenarios.
+	Fixed: (beta) Unpacking does not automatically start in some scenarios.
+	Changed: Progress is now calculated based on the size of each archive 
+		 instead of a pattern where all files were considered the same size.
+	Changed: If many items are added and the listbox gets filled, the listbox
+		 will automatically scroll to the item being processed. 
+	Added: UnpackQueue can now automatically add unpacked archives to the queue.
+
+2.1:
+	Added: Support for unpacking all compressed files in an entire folder tree.
+	Added: Support for multiple input sources.
+	Added: Support for selecting the extraction folder when each item is added.
+	Changed: Fixed some minor GUI issues.
+
+2.0:
+	Changed: Refactored some of the code.
+	Changed: Updated the GUI.
+
+1.0:
+	Initial version. :)
